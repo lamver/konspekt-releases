@@ -23,6 +23,8 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/lamver/konspekt-releases/blob/master/docs/README.md">Documentation</a>
+  ·
   <a href="https://github.com/lamver/konspekt-releases/blob/master/docs/README.ru.md">Русский</a>
   ·
   <a href="https://github.com/lamver/konspekt-releases/blob/master/docs/README.es.md">Español</a>
