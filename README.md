@@ -19,8 +19,10 @@
 ---
 
 <p align="center">
-  <a href="https://github.com/lamver/konspekt-releases/releases/latest">Download</a>
-  ·
+  <a href="https://github.com/lamver/konspekt-releases/releases/latest"><b>Скачать последнюю версию</b></a>
+</p>
+
+<p align="center">
   <a href="https://github.com/lamver/konspekt-releases/blob/master/docs/README.ru.md">Русский</a>
   ·
   <a href="https://github.com/lamver/konspekt-releases/blob/master/docs/README.es.md">Español</a>
