@@ -1,5 +1,5 @@
 {
-  "version": "0.0.0",
+  "version": "0.4.0",
   "url": "https://github.com/lamver/konspekt-releases/releases/latest",
-  "notes": "Первая публичная сборка ещё не вышла."
+  "notes": "Первый публичный билд. Локальная LLM, саммари и чат по встрече."
 }
