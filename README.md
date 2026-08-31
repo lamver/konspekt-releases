@@ -19,7 +19,7 @@
 ---
 
 <p align="center">
-  <a href="https://github.com/lamver/konspekt-releases/releases/latest"><b>Скачать последнюю версию</b></a>
+  <a href="https://github.com/lamver/konspekt-releases/releases/latest"><b>Download latest version</b></a>
 </p>
 
 <p align="center">
