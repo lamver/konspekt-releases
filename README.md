@@ -19,7 +19,7 @@
 ---
 
 <p align="center">
-  <a href="https://github.com/lamver/konspekt-releases/releases/latest"><b>Скачать последнюю версию</b></a>
+  <a href="https://github.com/lamver/konspekt-releases/releases/latest"><b>Download latest version</b></a>
 </p>
 
 <p align="center">
@@ -29,8 +29,10 @@
   ·
   <a href="https://github.com/lamver/konspekt-releases/blob/master/docs/README.sr.md">Srpski</a>
   ·
-  <a href="https://github.com/lamver/konspekt-releases/issues">Report an issue</a>
+
 </p>
+
+  <a href="https://github.com/lamver/konspekt-releases/issues">Report an issue</a>
 
 ---
 
