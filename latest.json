@@ -1,5 +1,5 @@
 {
-  "version": "0.5.7",
+  "version": "0.5.8",
   "url": "https://github.com/lamver/konspekt-releases/releases/latest",
-  "notes": "Готовый файл модели прекращает загрузку: больше не качаем то, что уже есть"
+  "notes": "Речь распознаётся быстрее и не сбивается на чужой язык"
 }
