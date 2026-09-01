@@ -1,5 +1,5 @@
 {
   "version": "0.5.8",
   "url": "https://github.com/lamver/konspekt-releases/releases/latest",
-  "notes": "Речь распознаётся быстрее и не сбивается на чужой язык"
+  "notes": "Текст появляется сразу после фразы, а язык больше не сбивается на чужой"
 }
