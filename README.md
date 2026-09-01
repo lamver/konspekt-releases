@@ -34,11 +34,29 @@
 
 ---
 
+## What you need
+
+Windows 10 or 11, 64-bit.
+
+|           | Minimum | Comfortable |
+| --------- | ------- | ----------- |
+| Processor | 2 cores | 4 cores     |
+| Memory    | 4 GB    | 8 GB        |
+| Disk      | 1 GB    | 4 GB        |
+
+Everything runs on your processor, no graphics card needed. Speech
+recognition keeps up with room to spare: even on a single core it
+transcribes five times faster than people speak.
+
+Disk space goes mostly to models, downloaded on first launch: 214 MB for
+speech recognition, plus about 1.8 GB if you want summaries written by
+the built-in language model.
+
 ## Found an issue?
 
 Please open an issue in this repository. Include:
 1. Program version from the About page
-2. Log file at: `%LOCALAPPDATA%\Konspekt\konspekt.log`
+2. Log file at: `%APPDATA%\Konspekt\konspekt.log`
 
 Do **not** send audio, transcripts or meeting notes. We never need them to debug the program.
 

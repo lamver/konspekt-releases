@@ -28,11 +28,30 @@
 
 ---
 
+## Qué necesitas
+
+Windows 10 u 11, de 64 bits.
+
+|            | Mínimo    | Cómodo    |
+| ---------- | --------- | --------- |
+| Procesador | 2 núcleos | 4 núcleos |
+| Memoria    | 4 GB      | 8 GB      |
+| Disco      | 1 GB      | 4 GB      |
+
+Todo se calcula en el procesador, no hace falta tarjeta gráfica. El
+reconocimiento va sobrado: incluso con un solo núcleo transcribe cinco
+veces más rápido de lo que habla la gente.
+
+El espacio en disco se va sobre todo en los modelos, que se descargan al
+primer inicio: 214 MB para el reconocimiento de voz y alrededor de
+1,8 GB más si quieres resúmenes escritos por el modelo de lenguaje
+integrado.
+
 ## ¿Encontraste un error?
 
 Abre un issue en este repositorio. Incluye:
 1. Versión del programa desde la página Acerca de
-2. Archivo de registro en: `%LOCALAPPDATA%\Konspekt\konspekt.log`
+2. Archivo de registro en: `%APPDATA%\Konspekt\konspekt.log`
 
 **NO** envíes audio, transcripciones ni notas de las reuniones. Nunca los necesitamos para depurar el programa.
 

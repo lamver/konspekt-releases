@@ -28,11 +28,29 @@
 
 ---
 
+## Šta vam treba
+
+Windows 10 ili 11, 64-bitni.
+
+|          | Minimum  | Udobno   |
+| -------- | -------- | -------- |
+| Procesor | 2 jezgra | 4 jezgra |
+| Memorija | 4 GB     | 8 GB     |
+| Disk     | 1 GB     | 4 GB     |
+
+Sve se računa na procesoru, grafička kartica nije potrebna.
+Prepoznavanje govora stiže sa viškom: i na jednom jezgru prepisuje pet
+puta brže nego što ljudi govore.
+
+Prostor na disku uglavnom odlazi na modele, koji se preuzimaju pri prvom
+pokretanju: 214 MB za prepoznavanje govora i još oko 1,8 GB ako želite
+sažetke koje piše ugrađeni jezički model.
+
 ## Našao si grešku?
 
 Otvori issue u ovom repozitorijumu. Priloži:
 1. Verziju programa sa stranice O programu
-2. Datoteka loga na putanji: `%LOCALAPPDATA%\Konspekt\konspekt.log`
+2. Datoteka loga na putanji: `%APPDATA%\Konspekt\konspekt.log`
 
 **NE** šalji audio zapise, transkripte ili bilješke sa sastanaka. Nikada nam ne trebaju za otklanjanje grešaka.
 
