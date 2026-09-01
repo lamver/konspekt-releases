@@ -1,5 +1,5 @@
 {
-  "version": "0.7.0",
+  "version": "0.7.1",
   "url": "https://github.com/lamver/konspekt-releases/releases/latest",
-  "notes": "Текст появляется, пока вы говорите, а не только после паузы"
+  "notes": "Показ речи на ходу из 0.7.0 не работал, теперь работает"
 }
