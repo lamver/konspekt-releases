@@ -71,11 +71,28 @@ Every release ships a `SHA256SUMS` file next to the installer. Compare the
 line in it with what Windows computes:
 
 ```
-certutil -hashfile konspekt-0.4.0-setup.exe SHA256
+certutil -hashfile konspekt-0.8.0-setup.exe SHA256
 ```
 
 A match means the file is exactly the one we built and nothing replaced it
 on the way. No match: do not run it, and tell us.
+
+Starting with the next release, every installer is scanned by VirusTotal
+during the build, against some seventy antivirus engines, and the report
+link is added to the release description. The scan runs on the build
+server before publishing, so there is no step where anyone could quietly
+skip it.
+
+You can also check that the file was built by us, from our source, rather
+than by someone else:
+
+```
+gh attestation verify konspekt-0.8.0-setup.exe --repo lamver/konspekt
+```
+
+The command names `lamver/konspekt`, the source repository where the build
+runs, not this one where releases are published. That is not a typo: the
+signature records where a file was built.
 
 ## Why Windows complains during install
 
@@ -86,4 +103,5 @@ then "Run anyway".
 
 Antivirus tools sometimes flag PyInstaller builds regardless of what is
 inside: honest and malicious programs alike are packaged that way. That is
-exactly why we publish checksums: they can be verified, promises cannot.
+exactly why we publish checksums, the VirusTotal report and the build
+attestation: they can be verified, promises cannot.
