@@ -60,17 +60,34 @@ Abre un issue en este repositorio. Incluye:
 Konspekt graba tu micrófono, escucha el audio del sistema e intercepta
 atajos de teclado. Visto desde fuera, así se comporta exactamente un
 programa espía, por lo que nuestro propio «lo hemos comprobado, está
-limpio» no vale nada. Compruébalo tú mismo, es un solo comando.
+limpio» no vale nada. Compruébalo tú mismo, son dos comandos.
 
 Cada versión publica un archivo `SHA256SUMS` junto al instalador. Compara
 la línea que contiene con lo que calcula Windows:
 
 ```
-certutil -hashfile konspekt-0.4.0-setup.exe SHA256
+certutil -hashfile konspekt-0.8.1-setup.exe SHA256
 ```
 
 Si coinciden, el archivo es exactamente el que compilamos y nadie lo ha
 sustituido por el camino. Si no coinciden, no lo ejecutes y avísanos.
+
+Cada instalador se analiza con VirusTotal durante la compilación, con unos
+setenta motores antivirus, y el enlace al informe está en la descripción de
+la versión. El análisis se ejecuta en el servidor de compilación antes de
+publicar, así que no hay ningún paso donde alguien pueda saltárselo en
+silencio.
+
+También puedes comprobar que el archivo lo compilamos nosotros, desde
+nuestro código fuente, y no otra persona:
+
+```
+gh attestation verify konspekt-0.8.1-setup.exe --repo lamver/konspekt
+```
+
+El comando nombra `lamver/konspekt`, el repositorio del código donde se
+ejecuta la compilación, no este donde se publican las versiones. No es una
+errata: la firma registra dónde se compiló el archivo.
 
 ## Por qué Windows protesta al instalar
 
@@ -81,5 +98,12 @@ información» y luego «Ejecutar de todas formas».
 
 Los antivirus a veces marcan las compilaciones de PyInstaller por sí
 mismas, sin importar su contenido: así se empaquetan tanto programas
-honestos como maliciosos. Por eso publicamos sumas de verificación: se
-pueden comprobar, las promesas no.
+honestos como maliciosos. Por eso publicamos sumas de verificación, el
+informe de VirusTotal y la firma de compilación: se pueden comprobar, las
+promesas no.
+
+Si el programa queda bloqueado del todo y no arranca (Defender indica el
+error 225), el archivo está intacto, simplemente se le niega el permiso de
+ejecución. Comprueba primero la suma, y solo si coincide: «Protección
+antivirus y contra amenazas» → «Historial de protección» → busca Konspekt →
+«Acciones» → «Permitir en el dispositivo».

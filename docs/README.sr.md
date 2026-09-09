@@ -58,18 +58,34 @@ Otvori issue u ovom repozitorijumu. Priloži:
 
 Konspekt snima tvoj mikrofon, sluša zvuk sistema i presreće prečice na
 tastaturi. Spolja gledano, tako se ponaša špijunski program, pa naše
-sopstveno „proverili smo, čisto je" ne vredi ništa. Proveri sam, jedna je
-komanda.
+sopstveno „proverili smo, čisto je" ne vredi ništa. Proveri sam, dve su
+komande.
 
 Uz svaki instalater objavljujemo i `SHA256SUMS`. Uporedi liniju iz njega sa
 onim što izračuna Windows:
 
 ```
-certutil -hashfile konspekt-0.4.0-setup.exe SHA256
+certutil -hashfile konspekt-0.8.1-setup.exe SHA256
 ```
 
 Ako se poklapa, datoteka je tačno ona koju smo napravili i niko je nije
 zamenio usput. Ako se ne poklapa, nemoj je pokretati i javi nam.
+
+Svaki instalater se tokom pravljenja proverava na VirusTotal-u, sa oko
+sedamdeset antivirusnih motora, a link ka izveštaju stoji u opisu izdanja.
+Provera se izvršava na serveru za pravljenje pre objave, pa ne postoji korak
+u kome bi neko mogao tiho da je preskoči.
+
+Možeš proveriti i da smo datoteku napravili mi, iz našeg izvornog koda, a ne
+neko drugi:
+
+```
+gh attestation verify konspekt-0.8.1-setup.exe --repo lamver/konspekt
+```
+
+U komandi stoji `lamver/konspekt`, repozitorijum sa kodom gde se pravljenje
+izvršava, a ne ovaj gde se izdanja objavljuju. Nije greška: potpis beleži
+gde je datoteka napravljena.
 
 ## Zašto se Windows buni pri instalaciji
 
@@ -80,4 +96,10 @@ firmi, što mlad projekat obično nema. Klikni „Više informacija", pa
 
 Antivirusi ponekad prijavljuju PyInstaller izdanja sama po sebi, bez obzira
 na sadržaj: tako se pakuju i pošteni i zlonamerni programi. Upravo zato
-objavljujemo kontrolne sume: one se mogu proveriti, obećanja ne mogu.
+objavljujemo kontrolne sume, VirusTotal izveštaj i potpis o poreklu: oni se
+mogu proveriti, obećanja ne mogu.
+
+Ako je program potpuno blokiran i ne pokreće se (Defender javlja grešku
+225), datoteka je čitava, samo joj se uskraćuje pravo da se pokrene. Prvo
+proveri kontrolnu sumu, i samo ako se poklapa: „Zaštita od virusa i pretnji"
+→ „Istorija zaštite" → pronađi Konspekt → „Radnje" → „Dozvoli na uređaju".
