@@ -66,7 +66,7 @@ Cada versión publica un archivo `SHA256SUMS` junto al instalador. Compara
 la línea que contiene con lo que calcula Windows:
 
 ```
-certutil -hashfile konspekt-0.8.1-setup.exe SHA256
+certutil -hashfile konspekt-0.9.0-setup.exe SHA256
 ```
 
 Si coinciden, el archivo es exactamente el que compilamos y nadie lo ha
@@ -82,7 +82,7 @@ También puedes comprobar que el archivo lo compilamos nosotros, desde
 nuestro código fuente, y no otra persona:
 
 ```
-gh attestation verify konspekt-0.8.1-setup.exe --repo lamver/konspekt
+gh attestation verify konspekt-0.9.0-setup.exe --repo lamver/konspekt
 ```
 
 El comando nombra `lamver/konspekt`, el repositorio del código donde se

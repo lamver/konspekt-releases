@@ -65,7 +65,7 @@ Konspekt пишет микрофон, слушает системный звук
 его и сравните строку с тем, что посчитает Windows:
 
 ```
-certutil -hashfile konspekt-0.8.1-setup.exe SHA256
+certutil -hashfile konspekt-0.9.0-setup.exe SHA256
 ```
 
 Совпало — файл ровно тот, что мы собрали, и по дороге его не подменили.
@@ -80,7 +80,7 @@ certutil -hashfile konspekt-0.8.1-setup.exe SHA256
 кто-то посторонний:
 
 ```
-gh attestation verify konspekt-0.8.1-setup.exe --repo lamver/konspekt
+gh attestation verify konspekt-0.9.0-setup.exe --repo lamver/konspekt
 ```
 
 В команде указан `lamver/konspekt` — репозиторий с кодом, где идёт сборка, а

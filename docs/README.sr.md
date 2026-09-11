@@ -65,7 +65,7 @@ Uz svaki instalater objavljujemo i `SHA256SUMS`. Uporedi liniju iz njega sa
 onim što izračuna Windows:
 
 ```
-certutil -hashfile konspekt-0.8.1-setup.exe SHA256
+certutil -hashfile konspekt-0.9.0-setup.exe SHA256
 ```
 
 Ako se poklapa, datoteka je tačno ona koju smo napravili i niko je nije
@@ -80,7 +80,7 @@ Možeš proveriti i da smo datoteku napravili mi, iz našeg izvornog koda, a ne
 neko drugi:
 
 ```
-gh attestation verify konspekt-0.8.1-setup.exe --repo lamver/konspekt
+gh attestation verify konspekt-0.9.0-setup.exe --repo lamver/konspekt
 ```
 
 U komandi stoji `lamver/konspekt`, repozitorijum sa kodom gde se pravljenje

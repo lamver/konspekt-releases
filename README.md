@@ -71,7 +71,7 @@ Every release ships a `SHA256SUMS` file next to the installer. Compare the
 line in it with what Windows computes:
 
 ```
-certutil -hashfile konspekt-0.8.1-setup.exe SHA256
+certutil -hashfile konspekt-0.9.0-setup.exe SHA256
 ```
 
 A match means the file is exactly the one we built and nothing replaced it
@@ -86,7 +86,7 @@ You can also check that the file was built by us, from our source, rather
 than by someone else:
 
 ```
-gh attestation verify konspekt-0.8.1-setup.exe --repo lamver/konspekt
+gh attestation verify konspekt-0.9.0-setup.exe --repo lamver/konspekt
 ```
 
 The command names `lamver/konspekt`, the source repository where the build
