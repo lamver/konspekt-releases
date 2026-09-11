@@ -1,5 +1,5 @@
 {
-  "version": "0.9.0",
+  "version": "0.9.1",
   "url": "https://github.com/lamver/konspekt-releases/releases/latest",
-  "notes": "Konspekt сам замечает разговор на компьютере и предлагает его записать, даже когда запись выключена."
+  "notes": "Microsoft Defender больше не принимает установщик за троян: уведомления показываются средствами самой Windows."
 }
