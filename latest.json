@@ -1,10 +1,5 @@
 {
   "version": "0.10.0",
   "url": "https://github.com/lamver/konspekt-releases/releases/latest",
-  "notes": {
-    "ru": "Заметки и реплики можно скопировать, а вопрос продиктовать",
-    "en": "Copy notes and lines, or dictate your question",
-    "es": "Copie notas y frases, o dicte su pregunta",
-    "sr": "Kopirajte beleske i replike ili izdiktirajte pitanje"
-  }
+  "notes": "Заметки и реплики можно скопировать, а вопрос продиктовать"
 }
