@@ -1,5 +1,5 @@
 {
-  "version": "0.10.1",
+  "version": "0.11.0",
   "url": "https://github.com/lamver/konspekt-releases/releases/latest",
-  "notes": "Окно больше не теряется за краем экрана после сворачивания"
+  "notes": "Поиск находит встречи по смыслу, а не только по словам"
 }
