@@ -42,15 +42,21 @@ Windows 10 or 11, 64-bit.
 | --------- | ------- | ----------- |
 | Processor | 2 cores | 4 cores     |
 | Memory    | 4 GB    | 8 GB        |
-| Disk      | 1 GB    | 4 GB        |
+| Disk      | 3 GB    | 10 GB       |
 
-Everything runs on your processor, no graphics card needed. Speech
-recognition keeps up with room to spare: even on a single core it
-transcribes five times faster than people speak.
+Everything runs on your processor, no graphics card needed.
 
-Disk space goes mostly to models, downloaded on first launch: 214 MB for
-speech recognition, plus about 1.8 GB if you want summaries written by
-the built-in language model.
+Disk space goes to the program (about 250 MB), the speech recognition
+models (about 560 MB, downloaded on first launch) and the model that
+writes notes (1.8 GB, downloaded the first time you ask for notes; the
+larger ones are 2.5 and 5 GB). Recordings take about 230 MB per hour.
+
+## License
+
+The first 10 meetings work in full. After that you can still view,
+search and copy everything; recording new meetings needs a license:
+[aisearch.ru/pricing/license/konspekt](https://aisearch.ru/pricing/license/konspekt). Paste the key in
+Settings → License. It is checked on your computer, without internet.
 
 ## Found an issue?
 

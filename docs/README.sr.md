@@ -36,15 +36,23 @@ Windows 10 ili 11, 64-bitni.
 | -------- | -------- | -------- |
 | Procesor | 2 jezgra | 4 jezgra |
 | Memorija | 4 GB     | 8 GB     |
-| Disk     | 1 GB     | 4 GB     |
+| Disk     | 3 GB     | 10 GB    |
 
 Sve se računa na procesoru, grafička kartica nije potrebna.
-Prepoznavanje govora stiže sa viškom: i na jednom jezgru prepisuje pet
-puta brže nego što ljudi govore.
 
-Prostor na disku uglavnom odlazi na modele, koji se preuzimaju pri prvom
-pokretanju: 214 MB za prepoznavanje govora i još oko 1,8 GB ako želite
-sažetke koje piše ugrađeni jezički model.
+Prostor na disku odlazi na sam program (oko 250 MB), modele za
+prepoznavanje govora (oko 560 MB, preuzimaju se pri prvom pokretanju) i
+model koji piše beleške (1,8 GB, preuzima se kad prvi put zatražite
+beleške; jači modeli imaju 2,5 i 5 GB). Snimci zauzimaju oko 230 MB po
+satu.
+
+## Licenca
+
+Prvih 10 sastanaka radi u potpunosti. Posle toga sve snimke i dalje
+možete gledati, pretraživati i kopirati, a za snimanje novih potrebna je
+licenca: [aisearch.ru/pricing/license/konspekt](https://aisearch.ru/pricing/license/konspekt). Ključ se
+unosi u Podešavanja → Licenca i proverava se na vašem računaru, bez
+interneta.
 
 ## Našao si grešku?
 

@@ -36,16 +36,23 @@ Windows 10 u 11, de 64 bits.
 | ---------- | --------- | --------- |
 | Procesador | 2 núcleos | 4 núcleos |
 | Memoria    | 4 GB      | 8 GB      |
-| Disco      | 1 GB      | 4 GB      |
+| Disco      | 3 GB      | 10 GB     |
 
-Todo se calcula en el procesador, no hace falta tarjeta gráfica. El
-reconocimiento va sobrado: incluso con un solo núcleo transcribe cinco
-veces más rápido de lo que habla la gente.
+Todo se calcula en el procesador, no hace falta tarjeta gráfica.
 
-El espacio en disco se va sobre todo en los modelos, que se descargan al
-primer inicio: 214 MB para el reconocimiento de voz y alrededor de
-1,8 GB más si quieres resúmenes escritos por el modelo de lenguaje
-integrado.
+El espacio en disco se va en el programa (unos 250 MB), los modelos de
+reconocimiento de voz (unos 560 MB, se descargan al primer inicio) y el
+modelo que escribe las notas (1,8 GB, se descarga la primera vez que
+pides notas; los más potentes ocupan 2,5 y 5 GB). Las grabaciones
+ocupan unos 230 MB por hora.
+
+## Licencia
+
+Las primeras 10 reuniones funcionan por completo. Después puedes seguir
+viendo, buscando y copiando todo; para grabar reuniones nuevas hace falta
+una licencia: [aisearch.ru/pricing/license/konspekt](https://aisearch.ru/pricing/license/konspekt). La clave
+se pega en Ajustes → Licencia y se comprueba en tu ordenador, sin
+internet.
 
 ## ¿Encontraste un error?
 
