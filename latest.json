@@ -1,5 +1,5 @@
 {
-  "version": "0.11.0",
+  "version": "0.12.0",
   "url": "https://github.com/lamver/konspekt-releases/releases/latest",
-  "notes": "Поиск находит встречи по смыслу, а не только по словам"
+  "notes": "Лицензия и пробный период, запись по ссылке, папки для встреч"
 }
