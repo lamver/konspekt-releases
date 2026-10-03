@@ -1,5 +1,5 @@
 {
-  "version": "0.14.0",
+  "version": "0.15.0",
   "url": "https://github.com/lamver/konspekt-releases/releases/latest",
-  "notes": "Папка сама берёт записи с диска, из АТС по SFTP и из Mango, UIS, Битрикс24"
+  "notes": "Итоги и разборы на языке встречи, сербская речь распознаётся по-сербски"
 }
