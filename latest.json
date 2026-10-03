@@ -1,5 +1,5 @@
 {
-  "version": "0.13.0",
+  "version": "0.14.0",
   "url": "https://github.com/lamver/konspekt-releases/releases/latest",
-  "notes": "Свой бот в Telegram, отправка заметок в Telegram и волна записи"
+  "notes": "Папка сама берёт записи с диска, из АТС по SFTP и из Mango, UIS, Битрикс24"
 }
