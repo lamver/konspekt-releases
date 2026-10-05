@@ -1,5 +1,5 @@
 {
-  "version": "0.15.3",
+  "version": "0.15.4",
   "url": "https://github.com/lamver/konspekt-releases/releases/latest",
-  "notes": "Своя модель для сербской речи: ошибок вдвое меньше"
+  "notes": "Обновление больше не встаёт наполовину"
 }
