@@ -1,5 +1,5 @@
 {
-  "version": "0.15.4",
+  "version": "0.15.5",
   "url": "https://github.com/lamver/konspekt-releases/releases/latest",
-  "notes": "Обновление больше не встаёт наполовину"
+  "notes": "Ссылка на YouTube работает через прокси"
 }
