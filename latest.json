@@ -1,5 +1,5 @@
 {
-  "version": "0.15.5",
+  "version": "0.16.0",
   "url": "https://github.com/lamver/konspekt-releases/releases/latest",
-  "notes": "Ссылка на YouTube работает через прокси"
+  "notes": "Конспект теперь и на macOS"
 }
