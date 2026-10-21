@@ -1,5 +1,5 @@
 {
-  "version": "0.17.0",
+  "version": "0.17.1",
   "url": "https://github.com/lamver/konspekt-releases/releases/latest",
-  "notes": "Подсказки по ходу разговора, язык встречи, история чата"
+  "notes": "Фразу и всю запись встречи можно сохранить файлом WAV"
 }
