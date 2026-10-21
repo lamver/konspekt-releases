@@ -1,5 +1,5 @@
 {
-  "version": "0.17.1",
+  "version": "0.18.0",
   "url": "https://github.com/lamver/konspekt-releases/releases/latest",
-  "notes": "Фразу и всю запись встречи можно сохранить файлом WAV"
+  "notes": "Mac обновляется сам; скачивание звука заработало"
 }
